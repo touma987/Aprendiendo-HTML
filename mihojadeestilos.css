@@ -1,0 +1,31 @@
+body {     /*selector de etiqueta*/
+	background-color: grey;
+}
+
+#cabeceraweb{
+	background-color:red;
+}
+li{
+	background-color:green;
+	display:inline;				/*modifica la disposicion del bloque ( no ocupa todo el ancho de la pantalla)*/
+}
+nav {
+	background-color:yellow;
+}
+#lateral{
+	background-color:blue;
+	float:left;					/*ubica en una posicion el bloque*/
+	height:760px;				/*altura del bloque*/
+	
+}
+#principal{
+	background-color:purple;
+	margin-left:210px;           /*distancia entre bloques*/
+	padding-left:35px;
+	padding-top:1px;
+}
+#pieprincipal{
+	background-color:white;
+	clear:both;					 /*limpia la superposicion de bloques*/
+	margin-top:30px;
+}

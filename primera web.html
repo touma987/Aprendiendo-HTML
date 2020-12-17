@@ -1,0 +1,112 @@
+<!DOCTYPE html>  <!Especifica que esta echo en html5>
+
+<html lang = "es"> 		<!etiqueta  con atributo (lenguaje)>
+<head>		            <!etiqueta  en donde va informacion que no se ve en la pag>
+
+	<meta charset="iso-8559-1"/>
+	<meta name = "description" content = "pagina de enseñanza html5" />             <!/content = atributos>
+	<meta name = "keywords" contentn = "html5, css3, javascript, diseño web"/>
+
+	<title>Pagina de programacion en html5  </title>
+	
+	<link rel = "stylesheet" href = "mihojadeestilos.css"/>
+	
+	<style>
+	
+		#lateral{
+			background-color:pink;		<!--Diferenciar un bloque del modelo de css (style en cabecera)-->
+		}
+	
+	</style>
+	
+</head>
+<body >		 <!--body bgcolor="blue" manera antigua de modificar la pagina-->
+    <header id = "cabeceraweb">
+		<h1>Este es el titulo de la pagina web </h1>  <!--h1,h2,h3,h4,h5,h5 son diferentes tamaño de letra-->
+	
+	</header> 
+	
+	<nav>
+		<ul>
+			<li style = background-color:purple>Quienes somos</li>		<!--style inline-->
+			<li>Nuestros Productos</li>     <!--tambien se puede usar "ol" para definir orden-->
+			<li>Contactanos</li>
+			<li>Quienes somos</li>
+		</ul>
+	
+	</nav>
+	
+	<aside id = "lateral">
+	
+		<blockquote>Primer elemento</blockquote>
+		<blockquote>Segundo elemento</blockquote>
+		<blockquote>Tercer elemento </blockquote>
+	
+	</aside>
+	
+	<section id = "principal">
+	
+		<article>                      <!--agrupa codigo de contenido similar-->
+			<header>                   <!--header tambien sirve para especificar cabecera de un bloque de codigo-->
+		
+				<hgroup>
+					<h2>Titulo noticia 1</h2>    <!--navegadores como firefox o chrome no permiten 2 o mas-->
+					<h3>Subtitulo noticia 1</h3> <!--textos con h1-->
+				</hgroup>
+			
+			<time datetime = "2014/5/24" pubdate>Noticia publicada el dia 24/5/1987</time>
+			<figure>
+				
+				<img src="3o6gbcQ8BmbUkLvRKg.gif"/>    <!--formatos admitidos jpg , gif ,png (gif y png admiten transparencia)-->
+
+				<figcaption>               <!--texto de imagen-->
+				
+				Warcraft 3
+
+				</figcaption>
+			
+			</figure>
+				
+			</header>
+			
+			
+			<p>Noticia 1</p>
+			<p><mark>Seguimos hablando de la noticia 1 </mark></p>
+			<p><em>Terminamos</em> de hablar de la noticia 1</p>
+			
+			<footer>
+		
+				<p>Comentarios de usuarios</p>
+		
+			</footer>
+		
+		</article>
+		
+		<article>
+		
+			<header>
+				<h2>Titulo noticia 2</h2>
+				<h3>Subtitulo noticia 2</h3>
+			</header>
+			
+			<p><strong>Noticia 2</strong></p>
+			<p>Seguimos hablando de la noticia 2 y <cite> El senior de los anillos </cite></p>
+			<p>Terminamos de hablar de la noticia 2</p>
+			
+			<footer>
+				<p>Comentarios noticia 2</p>
+			</footer>
+		</article>
+	
+	</section>
+	
+	<footer id = "pieprincipal">
+	
+		<small>Derechos reservados </small> <address>Tel:4451693</address>
+	
+	</footer>
+	
+
+<body/>
+
+</html>
